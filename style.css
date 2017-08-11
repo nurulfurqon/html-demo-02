@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+@font-face
+{
+	font-family:'tes';
+	src:url(font/Flow.otf);
+	font-weight:normal;
+	font-style:normal;	
+}
+
+body {
+	width:100%;
+
+	margin:auto;
+	padding:auto;
+}
+
+
+
+#slider
+{
+	width:100%;
+	height:780px;
+	background-image:url(images/back_01.png);
+	background-position:center;
+}
+#logo
+{
+	width:56%;
+	height:200px;
+
+	float:left;
+}
+#logo2
+{
+	width:40%;
+	height:200px;
+
+	float:right;
+}
+
+
+.font
+{
+	font-family:tes;
+	font-size:85px;
+	color:#fff;
+	text-shadow: 2px 2px 2px #343434;
+	margin-top:130px;
+	margin-left:300px;
+}
+#wadah_wr
+{
+	width:100%;
+	height:auto;
+	background-color:#f6f6f7;
+}
+#wrapper
+{
+	width:1040px;
+	height:auto;
+	background-color:#f6f6f7;
+	margin:auto;
+	padding:auto;
+}
+
+
+#content
+{
+	width:520px;
+	height:600px;
+	float:left;
+	
+}
+#content_1
+{
+	width:100%;
+	height:600px;
+	float:left;
+	margin-bottom:70px;
+
+}
+#content_2
+{
+	width:100%;
+	height:600px;
+	float:left;
+	margin-bottom:120px;
+
+}
+
+#content_3
+{
+	width:100%;
+	height:600px;
+	float:left;
+
+
+}
+.clear
+{
+	clear:both;
+}
+
+.font_sonet
+{
+	font-family:tes;
+	font-size:40px;
+	color:#404b3d;
+	padding-top:100px;
+	text-align:center;
+}
+
+.font_ip
+{
+	width:456px;
+	font-family:"open Sans";
+	font-size:15px;
+	text-align:center;
+	color:#5a5a5a;
+	margin:auto;
+	padding:auto;
+	margin-top:50px;
+	font-weight:lighter;
+}
+
+.button
+{
+	
+	border:1px solid #5a5a5a;
+	font-family:"Open Sans";
+	font-size:18px;
+	line-height:70px;
+	color:#404b3d;
+	text-align:center;
+	width:290px;
+	height:70px;
+	margin:50px 120px;
+	padding:auto;
+}
+/*.button:hover
+{
+	
+	border:1px solid #89a93f;
+	background-color:#89a93f;
+	font-family:"Open Sans";
+	font-size:18px; 
+	margin-top:40px; 
+	color:#fff;
+	text-align:center;
+	width:290px;
+	height:70px;
+	margin:50px 120px;
+	padding:auto;
+}*/
+#wadah_sos
+{
+	width:215px;
+	height:50px;
+	margin:auto;
+	padding:auto;
+	margin-top:20px;
+	margin-left:420px;
+}
+.sos
+{
+	width:33px;
+	height:33px;
+	float:left;
+	margin-right:10px;
+}
+.sos:hover
+{
+	opacity:0.8;
+}
